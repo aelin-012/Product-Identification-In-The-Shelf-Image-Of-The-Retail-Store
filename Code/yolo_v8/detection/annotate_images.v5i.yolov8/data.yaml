@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['carrots', 'kiwi', 'orange', 'zucchini']
+
+roboflow:
+  workspace: myactivespace
+  project: annotate_images-voevc
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myactivespace/annotate_images-voevc/dataset/5
